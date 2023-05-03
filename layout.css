@@ -1,0 +1,36 @@
+/* For Desktop Formatting */
+.header {
+    width: 100%;
+    height: 100px;
+}
+main {
+    min-height: calc(100vh - 100px - 50px);
+}
+
+.header, footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: auto;
+    height: 50px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+/* For mobile devices

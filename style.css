@@ -1,0 +1,21 @@
+
+.header, nav, footer {
+    background-color: #F865B0;
+    color: aliceblue;
+}
+
+
+main {
+}
+body * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+body {
+    min-height: 150vh;
+    background-image: repeating-linear-gradient(
+        -45deg, #FBCAEF, #FBCAEF 5px,
+        #F865B0 5px, #F865B0 10px
+    );
+    background-size: 100%;
+}

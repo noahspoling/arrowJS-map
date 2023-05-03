@@ -1,0 +1,22 @@
+/* CSS File for the map component */
+
+.addMenuContainer {
+    max-width: 30vh;
+    flex: 3;
+}
+
+.map-container {
+    width: 100%;
+    background-color: lightgrey;
+    flex: 7;
+}
+
+.appContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#map {
+    height: 600px;
+}

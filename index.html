@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin="">
+    </script>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./components/form.css">
+    <link rel="stylesheet" href="map.css">
+    <title>Leaflet ArrowJS Example</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="page-title">ArrowJS Map</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href=""><div class="navItemContainer">Map</div></a></li>
+            <li><a><div class="navItemContainer">Data</div></a></li>
+            <li><a><div class="navItemContainer">About</div></a></li>
+        </ul>
+    </nav>
+    <!-- Arrow JS Component for leaflet map and controller for data and importing and exporting it -->
+    <main class="app">   
+    </main>
+    <script type="module" src="./components/map.js"></script>
+    <script type="module">
+        import {mapApp} from './components/map.js';
+        const app = document.querySelector('.app')
+        mapApp(app)
+    </script>
+    <footer>
+        <p> Made With ArrowJS's library</p>
+    </footer>
+    </script>
+</body>
+</html>
