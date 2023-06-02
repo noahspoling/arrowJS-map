@@ -1,0 +1,18 @@
+
+nav {
+    width: 100%;
+    background-color: aquamarine;
+}
+ul  {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+@media only screen and (max-width: 768px ) {
+    nav {
+      background-color: black;
+    }
+  }
