@@ -1,16 +1,17 @@
 {
-  "name": "arrow-test",
-  "version": "1.0.0",
-  "description": "testing arrow js",
-  "main": "index.js",
+  "name": "arrowjs-map",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "Noah Poling",
-  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.3.9"
+  },
   "dependencies": {
-    "@arrow-js/core": "^1.0.0-alpha.9",
-    "http-server": "^14.1.1",
-    "leaflet": "^1.9.3"
+    "@arrow-js/core": "^1.0.0-alpha.9"
   }
 }
